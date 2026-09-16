@@ -4,14 +4,14 @@ on: [push]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: Build
         run: |
           echo "this is Surya Bhaskar"
 
   final:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: Final
         run: |
